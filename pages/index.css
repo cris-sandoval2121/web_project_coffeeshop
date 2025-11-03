@@ -53,6 +53,7 @@ ul{
     margin-right: 100px;
 }
 
+
 .header__titulo{
     display: flex;
     justify-content: center;
@@ -74,17 +75,17 @@ span{
     font-family: inter;
 }
 
-
-
 .header__horarios{
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
-    line-height: 0.1px;
+}
+
+.header__horario{
+    line-height: 0.3;
 }
 
 main{
- 
 }
 
 .recetas{
@@ -116,15 +117,10 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    flex-wrap: wrap;
-
 }
 
-.recetas__videos-uno{
-}
-
-.recetas__video_texto{
-    color: aliceblue;
+.recetas__texto{
     display: flex;
     justify-content: space-between;
+    color: aliceblue;
 }
