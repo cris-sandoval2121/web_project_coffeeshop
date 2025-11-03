@@ -1,0 +1,131 @@
+
+.page{
+    min-width: 1100px;
+    max-width: 1600px;
+    min-height: 1660px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+body{
+    background-color:rgba(255, 199, 229, 0) ;
+}
+
+.contenedor-1{
+    padding: 0 30px;
+}
+.header{
+    background-image: url(/images/background_header.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: rgba(0, 255, 255, 0);
+}
+.header__barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+.header__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 6rem;
+    line-height: 5rem;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: rgb(0, 128, 255);
+}
+
+span{
+    color: black;
+    font-family: inter;
+}
+
+
+
+.header__horarios{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    line-height: 0.1px;
+}
+
+main{
+ 
+}
+
+.recetas{
+    padding-top: 30px;
+    background-color: rgb(3, 35, 130);
+    background-image: url(/images/background_recipes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.recetas__heading{
+    color:white ;
+    background-color: rgba(0, 36, 89, 0);
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.recetas__heading h2{
+    font-size: 2.8rem;
+}
+
+.recetas__heading p{
+    font-size: 1.2rem;
+}
+
+.recetas__videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.recetas__videos-uno{
+}
+
+.video__texto{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
