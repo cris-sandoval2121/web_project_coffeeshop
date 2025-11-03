@@ -35,9 +35,6 @@ body{
     background-size: cover;
 }
 
-.header{
-    background-color: rgba(0, 255, 255, 0);
-}
 .header__barra{
     display: flex;
     justify-content: space-between;
@@ -61,6 +58,8 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+
 
 h1{
     font-size: 6rem;
@@ -124,7 +123,7 @@ main{
 .recetas__videos-uno{
 }
 
-.video__texto{
+.recetas__video_texto{
     color: aliceblue;
     display: flex;
     justify-content: space-between;
