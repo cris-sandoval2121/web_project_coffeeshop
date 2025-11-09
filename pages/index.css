@@ -134,7 +134,7 @@ main{
 }
 
 
-.reservation__title p{
+.reservation__title {
     font-family: inter;
     font-style: normal;
     font-weight: 500;
