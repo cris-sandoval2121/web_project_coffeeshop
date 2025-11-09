@@ -140,7 +140,7 @@ main{
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    margin-top: 100px  ;
+    margin: 100px 0 80px 0  ;
    
 }
 
@@ -166,7 +166,7 @@ main{
 
 .reservation__form{
     max-width: 385px;
-    margin: 80px auto 120px auto;
+    margin-bottom:120px;
 }
 
 .form__input{
