@@ -140,9 +140,7 @@ main{
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    margin-top: 100px;
-    margin-bottom: 80px;
-   
+    margin: 100px 0 80px 0;
 }
 
 .form__label{
@@ -170,15 +168,19 @@ main{
     margin-bottom:120px;
 }
 
+
+
 .form__input{
-    border-radius: 4px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+     border-radius: 4px;
     height: 60px;
     width: 100%;
     margin-bottom: 32px;
-}
 
-.form__input .placeholder{
-margin: 40px;
 }
 .form__buttom{
     border-radius: 4px;
