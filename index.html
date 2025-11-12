@@ -7,7 +7,6 @@
     <meta name="author" content="Cris Sandoval">
     <meta name="keywords" content="cafe, tienda, cafe tienda">
     <title>cafetacuva</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +22,7 @@
         <div class="nav__links">
             <a href="#recipes" class="nav__link">Recetas</a>
             <a href="#reservation" class="nav__link">Reservar una mesa</a>
-            <a href="#about" class="nav__link">Contactos</a>
+            <a href="#contactos" class="nav__link">Contactos</a>
         </div>
     </nav>
 
@@ -101,24 +100,24 @@
           <form class="form__reservation">
               
                     <label class="form__label"> nombre</label>
-                    <input class="form__input" type="text" placeholder="Nombre">
+                    <input class="form__input" type="text" placeholder="Nombre" required>
 
                     <label class="form__label"> Numero de comenzales</label>
-                    <input  class="form__input" type="number" min="1" max="8" placeholder="1-8">
+                    <input  class="form__input" type="number" min="1" max="8" placeholder="1-8" required>
 
 
                     <label class="form__label"> Fecha y hora</label>
-                    <input class="form__input" type="datetime-local">
+                    <input class="form__input" type="datetime-local" required>
 
                     <label class="form__label"> Correo electronico</label>
-                    <input class="form__input" type="email" placeholder="email@mail.com" >
+                    <input class="form__input" type="email" placeholder="email@mail.com" required >
 
                     <buttom class="form__buttom">Reserva una mesa</buttom>
 
                    
                     <div class="form__checkbox">
                         
-                        <input class="form__checkbox-input"  type="checkbox">
+                        <input class="form__checkbox-input"  type="checkbox" required>
                         <label class="form__boton">acepto los terminos de uso</label>
                         
                     </div>
@@ -134,7 +133,7 @@
 
     </main>
 
-<footer class="footer" id="footer" >
+<footer class="footer" id="contactos" >
     <div class="footer__columns" >
 
         <div class="footer__column">
