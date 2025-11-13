@@ -1,90 +1,73 @@
-.footer{
-    background-color: rgb(0, 29, 134);
-    background-image: url(/images/background_reservation.svg);
-    background-position: bottom  ;
-    background-repeat: no-repeat;
-    background-size:cover ;
-     box-sizing: border-box;
-  padding: 60px 80px 60px 80px;
-  font-size: 16px;
-  line-height: 20px;
-color: white;
+.footer {
+  padding: 60px 100px 60px 80px;
+  color: #fff;
+  background-color: #0a2850;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
-.footer__columns {
+.footer__content {
   display: flex;
-  justify-content: flex-start;
-  gap: 0;
-  
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.footer__column{
-  flex-grow:45;
-}
-
-.footer__column-heading{
-    font-family: inter;
-    font-size: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.footer__column_content_social {
-flex-grow:1 ; 
-}
-
-.footer__logo {
-  width: 58px;
-  height: 89px;
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
   margin-bottom: 16px;
-  
 }
 
-.footer__column-link {
-  text-decoration: none;
-  color: white;
-  display: flex;
-  align-items: center;
-   font-family: inter;
-    font-size: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
- 
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
-.footer__column-link:hover{
-     color: #c1c1c1;
-     opacity: 70%;
+.footer__logo {
+  width: 105px;
+  height: 39px;
+  z-index: 1;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
 }
 
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
-  margin-top: 100px;
-   font-family: inter;
-    font-size: normal;
-    font-weight:normal;;
-    font-size: 16px;
-    line-height: 20px;
+  margin: 108px 0 0;
 }
 
-.footer__logo{
-    width: 300px;
-}
-
-ul {
-    list-style: none;
-    text-decoration: none;
+.footer__circle {
+  background-color: #2f80ed;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  position: absolute;
+  left: -44px;
+  top: -128px;
 }
